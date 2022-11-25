@@ -22,7 +22,7 @@ export default function RecipOrForum() {
           fontSize="40px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/recipeunoff">
             <Text ml="60px" mt="20px">
               สูตร
             </Text>

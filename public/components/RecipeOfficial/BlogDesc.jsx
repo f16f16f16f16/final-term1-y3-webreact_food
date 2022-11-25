@@ -6,6 +6,11 @@ import {
   Avatar,
   Text,
   HStack,
+  List,
+  ListItem,
+  ListIcon,
+  OrderedList,
+  UnorderedList,
 } from "@chakra-ui/react";
 
 export default function BlogDesc() {
@@ -21,14 +26,16 @@ export default function BlogDesc() {
       <Box h="5px"></Box>
       <Box h="10px" bg="white"></Box>
       <Box bg="white">
-        <Heading size='md' ml="30px" color="black">
+        <Heading size="md" ml="30px" color="black">
           ชื่อเมนู
         </Heading>
-        <HStack>
+        <Box h="10px"></Box>
+        <HStack  ml='10px'>
           <Avatar name="Logo" src="../images/f16.JPG" />
+          <Box h="15px"></Box>
           <Text color="black">ชื่อ User</Text>
         </HStack>
-        <Text color="black" noOfLines={10}>
+        <Text color="black" ml='10px' noOfLines={10}>
           สูตรทำอาหาร สูตรทำอาหาร สูตรทำอาหาร สูตรทำอาหาร สูตรทำอาหาร
           สูตรทำอาหาร สูตรทำอาหาร อ อ สูตรทำอาหาร สูตรทำอาหาร สูตรทำอาหาร อ
           สูตรทำอาหาร สูตรทำอาหาร อ สูตรทำอาหาร สูตรทำอาหาร สูตรทำอาหาร อ
@@ -36,22 +43,30 @@ export default function BlogDesc() {
           สูตรทำอาหาร
         </Text>
       </Box>
-      <Box h="10px" bg="white"></Box>
+      <Box h="20px" bg="white"></Box>
       <Box bg="white">
-        <Heading size='md' ml="30px" color="black">
-        ส่วนผสม
+        <Heading size="md" ml="30px" color="black">
+          ส่วนผสม
         </Heading>
-        <HStack>
-          <Avatar name="Logo" src="../images/f16.JPG" />
-          <Text color="black">ชื่อ User</Text>
-        </HStack>
-        <Text color="black" noOfLines={10}>
-          "The quick brown fox jumps over the lazy dog" is an English-language
-          pangram—a sentence that contains all of the letters of the English
-          alphabet. Owing to its existence, Chakra was created. "The quick brown
-          fox jumps over the lazy dog" is an English-language
-        </Text>
+        <Box h="15px"></Box>
+        <UnorderedList color="black" ml="30px">
+          <ListItem>Lorem ipsum dolor sit amet</ListItem>
+        </UnorderedList>
       </Box>
+      <Box h="20px" bg="white"></Box>
+      <Box bg="white">
+        <Heading size="md" ml="30px" color="black">
+          วิธีทำ
+        </Heading>
+        <Box h="15px"></Box>
+        <OrderedList color="black" ml="30px" spacing={3}>
+          <ListItem>Lorem ipsum dolor sit amet</ListItem>
+          <ListItem>Consectetur adipiscing elit</ListItem>
+          <ListItem>Integer molestie lorem at massa</ListItem>
+          <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+        </OrderedList>
+      </Box>
+      <Box h="50px"></Box>
     </Box>
   );
 }
