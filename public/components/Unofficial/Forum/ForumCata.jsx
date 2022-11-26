@@ -22,7 +22,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               อาหารไทย
             </Text>
@@ -36,7 +36,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               อาหารยุโรป
             </Text>
@@ -50,7 +50,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               อาหารญี่ปุ่น
             </Text>
@@ -64,7 +64,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               อาหารจีน
             </Text>
@@ -78,7 +78,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               อาหารอินเดีย
             </Text>
@@ -106,7 +106,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               ของมัน
             </Text>
@@ -120,7 +120,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               ของคาว
             </Text>
@@ -134,7 +134,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               ไม่อาว
             </Text>
@@ -148,7 +148,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               พี่สะบัด
             </Text>
@@ -162,7 +162,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/forumpage[id]">
             <Text ml="60px" mt="14px">
               ก้นใส่
             </Text>
