@@ -22,7 +22,7 @@ export default function RecipePage() {
           fontSize="20px"
           color="black"
         >
-          <Link href="#">
+          <Link href="/recipeunoff[id]">
             <Text ml="60px" mt="14px">
               ไข่เจียวสไตล์บ้านเฮา
             </Text>
