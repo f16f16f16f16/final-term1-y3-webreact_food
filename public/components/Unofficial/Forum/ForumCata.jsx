@@ -22,7 +22,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpage[id]">
+          <Link href="/post/abc">
             <Text ml="60px" mt="14px">
               อาหารไทย
             </Text>
