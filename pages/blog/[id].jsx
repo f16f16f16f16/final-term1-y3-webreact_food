@@ -18,7 +18,6 @@ export default function Blog() {
   const [menuJsonRecipe, setMenuJsonRecipe] = useState([]);
   const [menuJsonIngre, setMenuJsonIngre] = useState([]);
 
-
   useEffect(() => {
     if (id) {
       fetchMenu();

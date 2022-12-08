@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import fetch from "isomorphic-unfetch";
 import axios from "axios";
-
+import { imgUrl } from "../../../pages/services/constants"; 
 export default function BlogDesc({ title, des, img, recipe, ingredient }) {
   // const myArrayIngre = ingredient.split("\n");
   // const myArrayRecipe = recipe.split("\n");
@@ -22,7 +22,7 @@ export default function BlogDesc({ title, des, img, recipe, ingredient }) {
     <Box maxW="700px">
       <Box h="80px"></Box>
       <Center>
-        <Image src={img} alt="Dan Abramov" />
+        <Image src={imgUrl+img} alt="Dan Abramov" />
       </Center>
       <Box h="5px"></Box>
       <Box h="10px" bg="white"></Box>

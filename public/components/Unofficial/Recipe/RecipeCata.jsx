@@ -1,7 +1,7 @@
 import { Box, VStack, Text, Divider } from "@chakra-ui/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { GetForumApi } from "../../../../pages/services/strapi/forum_api";
+import { GetRecipeApi } from "../../../../pages/services/strapi/forumPost";
 
 export default function ForumCata() {
 
@@ -25,7 +25,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpages/th">
+          <Link href="/recipeunoffpages/th">
             <Text ml="60px" mt="14px">
               อาหารไทย
             </Text>
@@ -39,7 +39,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpages/eu">
+          <Link href="/recipeunoffpages/eu">
             <Text ml="60px" mt="14px">
               อาหารยุโรป
             </Text>
@@ -53,7 +53,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpages/jp">
+          <Link href="/recipeunoffpages/jp">
             <Text ml="60px" mt="14px">
               อาหารญี่ปุ่น
             </Text>
@@ -67,7 +67,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpages/ch">
+          <Link href="/recipeunoffpages/ch">
             <Text ml="60px" mt="14px">
               อาหารจีน
             </Text>
@@ -81,7 +81,7 @@ export default function ForumCata() {
           fontSize="20px"
           color="black"
         >
-          <Link href="/forumpages/in">
+          <Link href="/recipeunoffpages/in">
             <Text ml="60px" mt="14px">
               อาหารอินเดีย
             </Text>

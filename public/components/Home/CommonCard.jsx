@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { GetPageColMenu } from "../../../pages/services/strapi/col_menu_webs";
-
+import { imgUrl } from "../../../pages/services/constants";
 const CommonCard = ({title, des, img, id}) => {
   return (
     <Center>
@@ -25,7 +25,7 @@ const CommonCard = ({title, des, img, id}) => {
         <Image
           objectFit="cover"
           maxW={{ base: "100%", sm: "200px" }}
-          src={img}
+          src={imgUrl+img}
           alt="Caffe Latte"
         />
 

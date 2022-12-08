@@ -62,12 +62,16 @@
           <WrapItem >
             <Avatar mt={1} bg="teal.500" ml={20}/>
             <Stack direction="row" spacing={6} mt={2} ml={4}>
-              <Button  colorScheme="blue" variant="solid">
+              <NextLink href="/signin">
+              <Button   colorScheme="blue" variant="solid">
                 เข้าสู่ระบบ
-              </Button>
-              <Button  colorScheme="pink" variant="solid">
+                </Button>
+              </NextLink>
+              <NextLink href="/signup">
+              <Button   colorScheme="pink" variant="solid">
                 สมัครสมาชิก
               </Button>
+              </NextLink>
             </Stack>
           </WrapItem>
         </Wrap>

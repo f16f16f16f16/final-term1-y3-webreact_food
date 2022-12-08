@@ -28,4 +28,3 @@ export const GetColMenu = async (values) => {
       return e;
     }
   };
-  

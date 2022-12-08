@@ -6,7 +6,11 @@ export const NOT_CONNECT_NETWORK = "NOT_CONNECT_NETWORK";
 export const NOT_FOUND = "NOT_FOUND";
 
 export const strapiUrl = "http://localhost:1337/api/";
-
+export const imgUrl = "http://localhost:1337/uploads/"
+// export const authUrl = "http://localhost:1337/uploads/"
 export const STRAPI_API = {
   COL_MENU_WEBS: `col-menu-webs`,
+  FORUM_API:`forum-apis`,
+  RECIPE_FORUMS:`recipe-forums`,
 };
+    
